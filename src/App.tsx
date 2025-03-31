@@ -51,15 +51,15 @@ const App: React.FC = () => {
       <div className="form-container">
       <Card>
         <CardContent>
-          <TextField
+          <TextField fullWidth
             type="text"
             placeholder="Enter your prompt..."
             value={prompt}
             onChange={(e) => setPrompt(e.target.value)}
           />
-          <div className="flex gap-2 mt-4">
-            <Button onClick={() => handleGenerate("image")} disabled={loading}>Generate Image</Button>
-            <Button onClick={() => handleGenerate("video")} disabled={loading}>Generate Video</Button>
+          <div className="generate-btns">
+            <Button variant="contained" onClick={() => handleGenerate("image")} disabled={loading}>Generate Image</Button>
+            <Button variant="contained" onClick={() => handleGenerate("video")} disabled={loading}>Generate Video</Button>
             </div>
           </CardContent>
         </Card>
