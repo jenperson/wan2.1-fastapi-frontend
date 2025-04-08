@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "run": "serve dist",
+    "serve": "serve dist",
     "clean": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\""
   },
   "dependencies": {
