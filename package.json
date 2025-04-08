@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm install -g serve && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "run": "serve dist",
+    "run": "npx serve dist",
     "clean": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\""
   },
   "dependencies": {
