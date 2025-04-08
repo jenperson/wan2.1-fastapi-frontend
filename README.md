@@ -1,6 +1,6 @@
 # Image to Video Generation with Wan2.1
 
-This React application accompanies Wan2.1 Image to Video Generation served on Koyeb. [View the Image to Video Generation code](https://github.com/jenperson/wan2.1-fastapi)
+This React application accompanies Wan2.1 Image to Video Generation served on Koyeb. [View the Image to Video Generation code](https://github.com/jenperson/wan2.1-fastapi) Please see the [tutorial](https://github.com/jenperson/wan2.1-fastapi-tutorial/blob/main/tutorial.md) for complete instructions.
 
 
 ## Running the app locally
